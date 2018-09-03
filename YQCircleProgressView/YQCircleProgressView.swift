@@ -26,7 +26,7 @@ class YQCircleProgreeView: UIView {
     
     var animationDuration: CFTimeInterval = 0.3
     
-    func setProgress(_ theProgress: Double, animation: Bool) {
+    func setProgress(_ theProgress: Double, animation: Bool = false) {
         
         let center = CGPoint(x: bounds.width / 2, y: bounds.height / 2)
         let radius = ((bounds.width < bounds.height ?
