@@ -2,12 +2,12 @@
 iOS Circle Progress View
 环形进度条控件
 
-### 效果：
+## 效果：
  ![image](https://github.com/976431yang/YQCircleProgressView/blob/master/DEMO/ScreenShot/2018-08-29%2020_18_50.gif) 
  
  - 支持纯色、图片、阴影、动画
 
-##### 简单使用 - 纯色
+## 简单使用 - 纯色
 ![image](https://github.com/976431yang/YQCircleProgressView/blob/master/DEMO/ScreenShot/imgRed.png)
 
 ```Swift
@@ -40,7 +40,7 @@ progressView.layer.shadowRadius = 5
 progressView.layer.shadowOpacity = 0.8
 ```
 
-##### 使用图片达到更好的效果
+## 使用图片达到更好的效果
 ![image](https://github.com/976431yang/YQCircleProgressView/blob/master/DEMO/ScreenShot/imgImg.jpg)
 
 - 设置一张图片上去即可：
