@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     
     let progressView: YQCircleProgreeView = {
         let progressView = YQCircleProgreeView(frame: CGRect(x: 0, y: 200,
-                                                             width: 300, height: 200))
+                                                             width: 300,
+                                                             height: 200))
         
         // 粗细
         progressView.borderWidth = 20

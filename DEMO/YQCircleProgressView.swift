@@ -42,11 +42,17 @@ class YQCircleProgreeView: UIView {
         progressLayer.lineCap = kCALineCapRound
         progressLayer.lineWidth = borderWidth
         
-        let toPath = UIBezierPath(arcCenter: center, radius: radius, startAngle: CGFloat(startA), endAngle: CGFloat(endA), clockwise: true)
+        let toPath = UIBezierPath(arcCenter: center, radius: radius,
+                                  startAngle: CGFloat(startA),
+                                  endAngle: CGFloat(endA),
+                                  clockwise: true)
         
         if animation {
             let fullEndA = (-Double.pi / 2) + Double.pi * 2 * 0.999
-            let fullPath = UIBezierPath(arcCenter: center, radius: radius, startAngle: CGFloat(startA), endAngle: CGFloat(fullEndA), clockwise: true)
+            let fullPath = UIBezierPath(arcCenter: center, radius: radius,
+                                        startAngle: CGFloat(startA),
+                                        endAngle: CGFloat(fullEndA),
+                                        clockwise: true)
             
             let animation = CABasicAnimation(keyPath: "strokeEnd")
             animation.fromValue = progress
